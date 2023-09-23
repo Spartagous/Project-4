@@ -1,0 +1,213 @@
+/*Global styles */
+* {
+    font-family: 'Helvetica';
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+}
+
+body {
+    background-color: white;
+    font-size: 22px;
+
+
+}
+
+.flex-container-body {
+    background-color: white;
+    display: block;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation */
+
+.flex-container-nav {
+    display: inline-flex;
+    background-color: black;
+    height: 69px;
+    width: 1269px;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+
+}
+
+.flex-container-nav-logo {
+    display: flex;
+    background-color: black;
+    align-content: left;
+    height: 50px;
+    margin: 10px 20px;
+    padding: 0px;
+}
+
+.flex-container-nav-logo img {
+    margin: 0px;
+    padding: 0px;
+    justify-items: center;
+}
+
+.flex-container-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 10px 20px;
+}
+
+.flex-container-nav-links a {
+    color: grey;
+    background-color: black;
+}
+
+.flex-container-nav-links ul li {
+    display: inline-block;
+}
+
+#cozy-logo {
+    height: auto;
+}
+
+
+/*Main content */
+.flex-container-main {
+    display: inline-flex;
+    background-color: black;
+    height: 100%;
+    width: 1269px;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+#img-mission-first-half img {
+    width: 1200px;
+    height: 300px;
+    object-position: top;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+#text-mission h2,
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#img-mission-second-half img {
+    width: 1200px;
+    height: 300px;
+    object-position: 50% 60%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#tea-text h2 {
+    padding-top: 50px;
+}
+
+#tea-text h2,
+h4 {
+    text-align: center;
+}
+
+#flex-container-img-tea-of-month {
+    width: 1000px;
+    display: flex;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#flex-container-img-tea-of-month #tea-img-section img {
+    height: 200px;
+    width: 300px;
+}
+
+#tea-img-section {
+    padding: 10px;
+}
+
+
+#locations {
+    width: 1269px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    /* Center horizontally */
+    display: flex;
+    /* Add this line to create a flex container */
+    align-items: center;
+    /* Align content vertically center */
+}
+
+#locations-outside-container {
+
+    margin-top: 100px;
+}
+
+#locations-background-img-container {
+    width: 1269px;
+    height: 500px;
+    background-image: url(Resources/Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+}
+
+#locations #locations-background-img-container h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#locations-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+#location-info-container {
+    background-color: black;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#location-info-container h3,
+p {
+    text-align: center;
+    line-height: 3em;
+}
+
+#contact {
+    background-color: black;
+    width: 1269px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+#contact {
+    text-align: center;
+    line-height: 2em;
+
+}
+
+#copyright-company {
+    width: 1249px;
+    background-color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
